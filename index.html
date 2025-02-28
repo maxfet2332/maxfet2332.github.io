@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>С Лёгким Паром – Современные бани для релакса</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+          <div class="logo">
+            <a href="#">С Лёгким Паром</a>
+          </div>
+          <nav class="main-nav">
+            <ul class="nav-list">
+              <li><a href="#about" class="nav-link">О нас</a></li>
+              <li><a href="#services" class="nav-link">Бани</a></li>
+              <li><a href="#gallery" class="nav-link">Галерея</a></li>
+              <li><a href="#booking" class="nav-link">Бронирование</a></li>
+              <li><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="nav-extras">
+            <button class="contact-btn">Связаться</button>
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </header>
+      
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Погрузитесь в мир релакса</h1>
+      <p>Современные бани, где каждый найдет свою гармонию</p>
+      <a href="#booking" class="btn">Забронировать сейчас</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <h2>О нас</h2>
+      <p>Мы объединяем традиции и современные технологии, чтобы подарить вам уникальные ощущения и настоящий отдых. Наши бани — это место, где можно забыть о повседневных заботах и насладиться каждым моментом.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section services">
+    <div class="container">
+      <h2>Наши Бани</h2>
+      <div class="services-grid">
+        <div class="service-item">
+          <img src="./img/777qxssa1vs70ez66c96cblccxjqbbz3.jpg" alt="Русская баня">
+          <h3>Русская баня</h3>
+          <p>Традиционная баня с ароматными вениками и натуральными материалами.</p>
+          <span class="price">2500 руб./час</span>
+          <button class="buy-btn" data-name="Русская баня" data-price="2500">Купить</button>
+        </div>
+        <div class="service-item">
+          <img src="./img/finskaya.jpg" alt="Финская сауна">
+          <h3>Финская сауна</h3>
+          <p>Интенсивный сухой жар для максимального оздоровления.</p>
+          <span class="price">3000 руб./час</span>
+          <button class="buy-btn" data-name="Финская сауна" data-price="3000">Купить</button>
+        </div>
+        <div class="service-item">
+          <img src="./img/foto7.jpg" alt="Хаммам">
+          <h3>Хаммам</h3>
+          <p>Турецкая баня с мягким паром и атмосферой восточного уюта.</p>
+          <span class="price">2800 руб./час</span>
+          <button class="buy-btn" data-name="Хаммам" data-price="2800">Купить</button>
+        </div>
+        <div class="service-item">
+            <img src="./img/photo_2025-02-28_15-04-17.jpg" alt="шашлык">
+            <h3>Шашлык</h3>
+            <p>Шашлык на заказ: Свинина, баранина.</p>
+            <span class="price">5000 руб.</span>
+            <button class="buy-btn" data-name="Хаммам" data-price="5000">Купить</button>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="section gallery">
+    <div class="container">
+      <h2>Галерея</h2>
+      <div class="gallery-slider">
+        <button class="slider-btn prev">
+          <i class="arrow"></i>
+        </button>
+        <div class="slider-wrapper">
+          <div class="slider-track">
+            <img src="./img/2b2c50f86cfcab2901ff50b3d314f962.webp" alt="Баня 1">
+            <img src="./img/a1dff17adac4db208b406b9b63f16248.jpg" alt="Баня 2">
+            <img src="./img/jmrtzik5gbz17a6hmwt18vr074b2elky.jpg" alt="Баня 3">
+            <img src="./img/kdiyvhl4k1ilkrt6so4p3rn4jw5f4lej.jpg" alt="Баня 4">
+            <img src="./img/russkaya-banya-2.jpg" alt="Баня 5">
+            <img src="./img/wxxs6a4yz89s03tdmkyh4qekh9j6wuyo.jpg" alt="Баня 6">
+            <img src="./img/polza-bani-i-vred-dlya-cheloveka-1.jpg" alt="Баня 7">
+            <img src="./img/L.webp" alt="Баня 8">
+          </div>
+        </div>
+        <button class="slider-btn next">
+          <i class="arrow"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+  
+  <!--отзывы-->
+  <section id="reviews" class="section reviews">
+    <div class="container">
+      <h2>Отзывы</h2>
+      <div class="reviews-list" id="reviews-list">
+        <!-- Пример уже существующих отзывов -->
+        <div class="review-item">
+          <div class="review-author">Иван Иванов</div>
+          <div class="review-text">Отличное место для отдыха! Атмосфера просто волшебная.</div>
+        </div>
+        <div class="review-item">
+          <div class="review-author">Мария Петрова</div>
+          <div class="review-text">Замечательный сервис и уютная обстановка. Рекомендую!</div>
+        </div>
+      </div>
+      <form id="review-form" class="review-form">
+        <input type="text" id="review-author" placeholder="Ваше имя" required>
+        <textarea id="review-text" placeholder="Ваш отзыв" required></textarea>
+        <button type="submit" class="btn review-submit">Добавить отзыв</button>
+      </form>
+    </div>
+  </section>
+  
+
+  <!-- Booking Section -->
+  <section id="booking" class="section booking">
+    <div class="container">
+      <h2>Бронирование</h2>
+      <form id="booking-form">
+        <div class="form-group">
+          <input type="text" placeholder="Ваше имя" required>
+        </div>
+        <div class="form-group">
+          <input type="tel" placeholder="Телефон" required>
+        </div>
+        <div class="form-group">
+          <select required>
+            <option value="" disabled selected>Выберите тип бани</option>
+            <option value="rus">Русская баня</option>
+            <option value="fin">Финская сауна</option>
+            <option value="hammam">Хаммам</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn">Отправить заявку</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Контакты</h2>
+      <div class="contact-content">
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div class="contact-info">
+            <h3>Телефон</h3>
+            <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div class="contact-info">
+            <h3>Адрес</h3>
+            <p>ул. Паровая, 15, Москва</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div class="contact-info">
+            <h3>Email</h3>
+            <a href="mailto:info@легкийпар.рф">info@легкийпар.рф</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 С Лёгким Паром. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <!-- Фиксированная корзина -->
+  <div id="cart">
+    <div id="cart-toggle">
+      <span class="cart-icon">🛒</span>
+      <span id="cart-count">0</span>
+    </div>
+    <div id="cart-menu">
+      <h3>Корзина</h3>
+      <ul id="cart-items">
+        <li id="empty-cart">Корзина пуста</li>
+      </ul>
+      <button id="checkout">Оформить заказ</button>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
